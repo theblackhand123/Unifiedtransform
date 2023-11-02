@@ -45,7 +45,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
+            'url' => env('https://schoolapp.azurewebsites.net/'),
             'host' => env('DB_HOST', 'schoolapp-server.mysql.database.azure.com'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'schoolapp-database'),
